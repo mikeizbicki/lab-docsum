@@ -25,6 +25,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install groq python-dotenv pytest
 
-      - name: Run doctests
+      - name: Run doctests with coverage
+        env:
+            GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
-          python -m pytest chat.py --doctest-modules
+            python -m coverage run -m pytest chat.py --doctest-modules
+            
+      - name: Coverage report
+        run: |
+          python -m coverage report -m

@@ -35,7 +35,7 @@ class Chat:
     >>> chat2.send_message('what is my name?', temperature=0.0)
     "I don't have any information about your name. I'm a text-based AI assistant and our conversation just started, so I don't have any prior knowledge about you."
     '''
-    client = Groq()
+    client = Groq(api_key=os.getenv("GROQ_API_KEY"))
     def __init__(self):
         self.messages = [
             {
