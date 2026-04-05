@@ -14,4 +14,4 @@ dependencies = [
 ]
 
 [project.scripts]
-chat = "chat.repl"
+chat = "chat:repl"
