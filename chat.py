@@ -268,7 +268,7 @@ def repl(temperature=0.8):
     >>> builtins.input = monkey_input
     >>> repl(temperature=0.0) # doctest: +ELLIPSIS
     chat> /
-    chat> 
+    chat>
     <BLANKLINE>
 
     >>> def monkey_input(prompt, user_inputs=['/unknown']):
