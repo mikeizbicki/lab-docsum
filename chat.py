@@ -260,13 +260,16 @@ def repl(temperature=0.8):
     >>> def monkey_input(prompt, user_inputs=['/', '']):
     ...     try:
     ...         user_input = user_inputs.pop(0)
-    ...         print(f'{prompt}{user_input}')
+    ...         if user_input == '':
+    ...             print(prompt.rstrip())
+    ...         else:
+    ...             print(f'{prompt}{user_input}')
     ...         return user_input
     ...     except IndexError:
     ...         raise KeyboardInterrupt
     >>> import builtins
     >>> builtins.input = monkey_input
-    >>> repl(temperature=0.0) # doctest: +ELLIPSIS
+    >>> repl(temperature=0.0)
     chat> /
     chat>
     <BLANKLINE>
