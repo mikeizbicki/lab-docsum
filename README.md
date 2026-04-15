@@ -2,7 +2,7 @@
 
 [![doctests](https://github.com/chisatokamakura/lab-docsum/actions/workflows/doctest.yml/badge.svg)](https://github.com/chisatokamakura/lab-docsum/actions/workflows/doctest.yml)
 [![integration-tests](https://github.com/chisatokamakura/lab-docsum/actions/workflows/integration-tests.yml/badge.svg)](https://github.com/chisatokamakura/lab-docsum/actions/workflows/integration-tests.yml)
-[![pypi-publish](https://github.com/chisatokamakura/lab-docsum/actions/workflows/pypi-publish.yml/badge.svg)](https://github.com/chisatokamakura/lab-docsum/actions/workflows/pypi-publish.yml)
+[![pypi](https://github.com/chisatokamakura/lab-docsum/actions/workflows/pypi.yml/badge.svg)](https://github.com/chisatokamakura/lab-docsum/actions/workflows/pypi.yml)
 [![PyPI version](https://img.shields.io/pypi/v/cmc-cs040-chisatokamakura.svg)](https://pypi.org/project/cmc-cs040-chisatokamakura/)
 [![coverage](https://img.shields.io/badge/coverage-99%25-brightgreen)](#)
 
