@@ -1,0 +1,12 @@
+[submodule "test_projects/webpage"]
+	path = test_projects/webpage
+	url = https://github.com/chisatokamakura/chisatokamakura.github.io
+[submodule "project02_webscraping"]
+	path = project02_webscraping
+	url = https://github.com/chisatokamakura/project02_webscraping
+[submodule "project01"]
+	path = project01
+	url = https://github.com/chisatokamakura/project01
+[submodule "chisatokamakura.github.io"]
+	path = chisatokamakura.github.io
+	url = https://github.com/chisatokamakura/chisatokamakura.github.io
