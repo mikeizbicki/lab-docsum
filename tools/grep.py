@@ -54,6 +54,7 @@ def grep(pattern, path):
 
     return result
 
+
 tool_schema = {
     "type": "function",
     "function": {

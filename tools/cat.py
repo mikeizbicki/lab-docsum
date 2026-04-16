@@ -40,6 +40,7 @@ def cat(filename):
     except Exception:
         return 'Error: cannot read file'
 
+
 tool_schema = {
     "type": "function",
     "function": {
