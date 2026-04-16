@@ -2,6 +2,7 @@
 
 [![doctests](https://github.com/chisatokamakura/lab-docsum/actions/workflows/doctest.yml/badge.svg)](https://github.com/chisatokamakura/lab-docsum/actions/workflows/doctest.yml)
 [![integration-tests](https://github.com/chisatokamakura/lab-docsum/actions/workflows/integration-tests.yml/badge.svg)](https://github.com/chisatokamakura/lab-docsum/actions/workflows/integration-tests.yml)
+![flake8](https://github.com/chisatokamakura/lab-docsum/actions/workflows/python.yml/badge.svg)
 [![PyPI version](https://img.shields.io/pypi/v/cmc-cs040-chisatokamakura.svg)](https://pypi.org/project/cmc-cs040-chisatokamakura/)
 [![coverage](https://codecov.io/gh/chisatokamakura/lab-docsum/branch/main/graph/badge.svg)](https://codecov.io/gh/chisatokamakura/lab-docsum)
 
